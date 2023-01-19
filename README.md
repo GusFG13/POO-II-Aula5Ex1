@@ -1,4 +1,19 @@
 # POO-II-Aula5Ex1
+
+    Crie uma aplicação Console que contenha uma cópia da classe abaixo.
+
+            public class Student
+            {
+                public string Name { get; set; }
+                public string University { get; set; }
+                public int RollNumber { get; set; }
+
+                public void DisplayInfo()
+                {
+                    Console.WriteLine($"{Name} - {University} - {RollNumber}");
+                }
+            }
+
     1. Em seguida, na classe Program, crie um método chamado DisplayPublicProperties que, usando 
        Reflection, exiba todas as Propriedades Públicas da classe Student. No método Main da classe 
        Program, coloque uma chamada para o método DisplayPublicProperties.
